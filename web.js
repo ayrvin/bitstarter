@@ -3,7 +3,8 @@ var app = express();
 app.use(express.logger());
 
 
-var buffindex = new Buffer(fs.readFileSync("index.html"));
+//var buffindex = new Buffer(fs.readFileSync("index.html"));
+var buffindex = new Buffer("test");
 
 
 app.get('/', function(request, response) {
