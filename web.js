@@ -8,8 +8,8 @@ var buffindex = new Buffer("test");
 
 
 app.get('/', function(request, response) {
-//  response.send(buf.toString(buffindex);
-  response.send("Hello World 2!");
+  response.send(buf.toString(buffindex);
+//  response.send("Hello World 2!");
 });
 
 var port = process.env.PORT || 5000;
