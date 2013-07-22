@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 
-var buffindex = fs.readFileSync("index.html");
+//var buffindex = fs.readFileSync("index.html");
 
 
 app.get('/', function(request, response) {
