@@ -9,8 +9,8 @@ var buffindex = new Buffer(fs.readFileSync("index.html"));
 
 
 app.get('/', function(request, response) {
-//  response.send(buf.toString(buffindex);
-  response.send("Hello World 2!");
+response.send(buffindex);
+//  response.send("Hello World 2!");
 });
 
 var port = process.env.PORT || 5000;
