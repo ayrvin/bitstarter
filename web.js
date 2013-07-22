@@ -9,7 +9,7 @@ var buffindex = new Buffer(fs.readFileSync("index.html"));
 
 
 app.get('/', function(request, response) {
-response.send(buf.toString(buffindex));
+response.send(buffindex.toString());
 //  response.send("Hello World 2!");
 });
 
